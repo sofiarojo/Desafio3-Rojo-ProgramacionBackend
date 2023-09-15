@@ -1,0 +1,8 @@
+[
+    {"id":1, "title":"Ashtanga Yoga", "description":"Curso para nivel intermedio", "price":9000, "thumbnail":"img1.jpg", "code":"abc123", "stock":15},
+    {"id":2, "title":"Hatha Yoga", "description":"Curso para nivel inicial", "price":6250, "thumbnail":"img2.jpg", "code":"def456", "stock":7},
+    {"id":3, "title":"Yoga Terapéutico", "description":"Curso para nivel inicial", "price":6500, "thumbnail":"img3.jpg", "code":"jkl101", "stock":9},
+    {"id":4, "title": "Vinyasa Yoga", "description": "Curso para nivel intermedio", "price":8750, "thumbnail":"img4.jpg", "code": "aad445", "stock":12},
+    {"id":5, "title": "Power Yoga", "description": "Curso para nivel avanzado", "price": 10000, "thumbnail":"img5.jpg", "code":"ahh423", "stock":6},
+    {"id":6, "title": "Kundalini Yoga", "description": "Curso para nivel inicial", "price":9250, "thumbnail":"img6.jpg", "code": "bff988", "stock":8}
+]
