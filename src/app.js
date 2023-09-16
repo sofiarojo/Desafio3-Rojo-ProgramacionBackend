@@ -28,9 +28,9 @@ app.get('/products', async (req, res) => {
 
 //Endpoint para obtener un producto por ID
 app.get('/products/:pid', async (req, res) => {
-    const {productId} = req.params;
+    const { pid } = req.params;
     try {
-        const product = await productManager.getProductsById(productId);
+        const product = await productManager.getProductsById(pid);
 
         if (!product) {
             return res.status(400).json({ message: "Product not found with the id" });
@@ -40,6 +40,7 @@ app.get('/products/:pid', async (req, res) => {
         res.status(500).json({ message: error.message });
     }
 });
+
 
 app.listen(8080, () => {
     console.log('¡Escuchando servidor 8080!');
